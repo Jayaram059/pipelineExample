@@ -1,5 +1,5 @@
 stages {
-  agent { node { label 'jenkins-s1.lvn.broadcom.net' } }
+  
   stage('Build') {
     steps {
       sh 'echo "This is my first step"'
