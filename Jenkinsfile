@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent 'ibnqa003401.bpc.broadcom.net'
 
     stages {
         stage('Build') {
