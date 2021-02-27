@@ -1,5 +1,7 @@
 pipeline {
-    agent 'ibnqa003401.bpc.broadcom.net'
+    agent {
+        label 'ibnqa003401.bpc.broadcom.net'
+    }
 
     stages {
         stage('Build') {
